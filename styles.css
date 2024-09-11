@@ -1,12 +1,20 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #89379d00;
+    background-color: #afbae7;
     color: #333;
     margin: 0;
     padding: 20px;
     text-align: center;
     font-size: 7px; /* Half the base font size */
 }
+.content-box {
+    background-color: #444; /* Slightly darker background for the box */
+    border: 2px solid black; /* Green border around the box */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Padding inside the box */
+    max-width: 600px; /* Set maximum width */
+    margin: 0 auto; /* Center the box */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
 
 h1 {
     color: #4CAF50;
