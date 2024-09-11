@@ -5,18 +5,18 @@ body {
     margin: 0;
     padding: 20px;
     text-align: center;
-    font-size: 14px; /* Smaller base font size */
+    font-size: 7px; /* Half the base font size */
 }
 
 h1 {
     color: #4CAF50;
-    font-size: 20px; /* Smaller header font size */
+    font-size: 10px; /* Half the previous header font size */
     margin-bottom: 10px;
 }
 
 h2 {
     color: #333;
-    font-size: 18px; /* Smaller sub-header font size */
+    font-size: 9px; /* Half the previous sub-header font size */
     margin-top: 30px;
 }
 
@@ -26,13 +26,13 @@ ul {
 }
 
 li {
-    font-size: 14px; /* Smaller list item font size */
+    font-size: 7px; /* Half the list item font size */
     margin: 5px 0;
 }
 
 img {
-    width: 120px; /* Smaller image */
-    height: 120px;
+    width: 60px; /* Half the previous image size */
+    height: 60px;
     border-radius: 50%; /* Circular image */
     margin-bottom: 20px;
 }
