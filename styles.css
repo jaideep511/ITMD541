@@ -8,8 +8,8 @@ body {
     font-size: 15px; /* Half the base font size */
 }
 .content-box {
-    background-color: #444; /* Slightly darker background for the box */
-    border: 2px solid black; /* Green border around the box */
+    background-color: #ffffff; /* Slightly darker background for the box */
+    border: 2px solid rgb(255, 255, 255); /* Green border around the box */
     border-radius: 10px; /* Rounded corners */
     padding: 20px; /* Padding inside the box */
     max-width: 600px; /* Set maximum width */
