@@ -12,7 +12,7 @@ header .hero {
     color: white;
     padding: 50px 20px;
     text-align: center;
-    font-size: 10px;
+    font-size: 8px; /* Smaller font size for hero section */
 }
 
 /* Section styling */
@@ -25,22 +25,21 @@ section {
     border-radius: 10px;
 }
 
-h2 {
-    font-size: 18px;
-    margin-bottom: 20px;
+section#about-me {
+    font-size: 9px; /* Smaller font size for the about-me section */
 }
 
-img {
-    width: 30%;
-    height: 50%;
-    align-self: center;
-  }
+h2 {
+    font-size: 14px; /* Slightly smaller for all h2 headings */
+    margin-bottom: 20px;
+}
 
 /* Skill and meter styling */
 .skill {
     margin-bottom: 20px;
     width: 80%; /* Ensure the skill bar is wide enough */
-    margin: 0 auto; /* Center align the skill bar */
+    margin: 0 auto;
+    font-size: 8px; /* Smaller font size for skill section */
 }
 
 .meter {
@@ -63,7 +62,7 @@ img {
 }
 
 p {
-    font-size: 14px;
+    font-size: 12px; /* Slightly smaller paragraph font size */
     margin-bottom: 5px;
 }
 
