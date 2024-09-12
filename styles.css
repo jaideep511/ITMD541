@@ -41,7 +41,7 @@ object-fit: cover;
 /* Skill and meter styling */
 .skill {
     margin-bottom: 20px;
-    width: 80%; /* Ensure the skill bar is wide enough */
+    width: 40%; /* Ensure the skill bar is wide enough */
     margin: 0 auto;
     font-size: 8px; /* Smaller font size for skill section */
 }
@@ -59,7 +59,7 @@ object-fit: cover;
 
 .meter span {
     display: block;
-    height: 100%;
+    height: 50%;
     background-color: #4CAF50; /* Green color for the progress */
     border-radius: 15px;
     box-shadow: inset 0 2px 9px rgba(0, 0, 0, 0.3);
