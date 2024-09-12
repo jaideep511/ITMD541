@@ -15,6 +15,15 @@ body {
     max-width: 600px; /* Set maximum width */
     margin: 0 auto; /* Center the box */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 16px; /* Adjust this value to change the font size */
+}
 
 h1 {
     color: #ffffff;
