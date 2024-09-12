@@ -51,7 +51,7 @@ img {
     width: 60px; /* Half the previous image size */
     height: 60px;
     border-radius: 50%; /* Circular image */
-    margin-bottom: 10px;
+    margin-bottom: 3px;
 }
 
 a {
