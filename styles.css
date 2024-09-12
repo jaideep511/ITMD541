@@ -24,7 +24,11 @@ section {
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
 }
-
+img {
+    width: 30%;
+    height: 50%;
+    align-self: center;
+  }
 section#about-me {
     font-size: 9px; /* Smaller font size for the about-me section */
 }
