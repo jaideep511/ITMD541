@@ -30,6 +30,12 @@ h2 {
     margin-bottom: 20px;
 }
 
+img {
+    width: 30%;
+    height: 50%;
+    align-self: center;
+  }
+
 /* Skill and meter styling */
 .skill {
     margin-bottom: 20px;
