@@ -1,69 +1,128 @@
+/* Basic page styling */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #afbae7;
-    color: #ffffff;
+    font-family: 'Arial', sans-serif;
     margin: 0;
-    padding: 20px;
-    text-align: center;
-    font-size: 15px; /* Half the base font size */
-}
-.content-box {
-    background-color: #ffffff; /* Slightly darker background for the box */
-    border: 2px solid rgb(255, 255, 255); /* Green border around the box */
-    border-radius: 10px; /* Rounded corners */
-    padding: 20px; /* Padding inside the box */
-    max-width: 600px; /* Set maximum width */
-    margin: 0 auto; /* Center the box */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
-}
-
-header {
-    background-color: #4CAF50;
-    color: white;
-    padding: 20px;
-    text-align: center;
-    font-size: 8px; /* Adjust this value to change the font size */
-}
-
-h1 {
-    color: #ffffff;
-    font-size: 2px; /* Half the previous header font size */
-    margin-bottom: 10px;
-}
-
-h2 {
-    color: #ffffff;
-    font-size: 2px; /* Half the previous sub-header font size */
-    margin-top: 10px;
-}
-
-ul {
-    list-style-type: none;
     padding: 0;
-}
-
-li {
-    font-size: 3px; /* Half the list item font size */
-    margin: 5px 0;
-}
-
-img {
-    width: 60px; /* Half the previous image size */
-    height: 60px;
-    border-radius: 50%; /* Circular image */
-    margin-bottom: 3px;
-}
-
-a {
+    background-color: #f4f4f9;
+  }
+  
+  header .hero {
+    background-color: #4caf50;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 10px;
+    background-color: #333;
+  }
+  
+  nav ul li {
+    margin: 0 20px;
+  }
+  
+  nav ul li a {
+    color: white;
     text-decoration: none;
-    color: #ffffff;
-}
-
-a:hover {
+  }
+  
+  nav ul li a:hover {
     text-decoration: underline;
-}
-
-body, ul, li {
-    max-width: 800px;
-    margin: 0 auto;
-}
+  }
+  
+  /* Section styling */
+  section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 900px;
+    background-color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Profile image */
+  .profile-img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  /* Skills section */
+  .skills-container {
+    display: flex;
+    justify-content: space-between; /* Ensure space between JS and TS */
+    flex-wrap: nowrap; /* Keep JS and TS on the same row */
+    margin-top: 50px;
+    gap: 20px; /* Add spacing between JS and TS */
+  }
+  
+  .skill {
+    text-align: center;
+    width: 45%; /* Adjust the width for JS and TS */
+    margin-bottom: 20px;
+  }
+  
+  .skill img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .progress-bar {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 25px;
+    margin-top: 10px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .progress-bar-fill {
+    height: 25px;
+    background-color: #4caf50;
+    border-radius: 25px;
+    line-height: 25px;
+    color: white;
+    text-align: center;
+    transition: width 1s ease-in-out;
+  }
+  
+  /* Specific colors for JS and TS */
+  .js-bar-fill {
+    background-color: #f7df1e; /* JavaScript yellow */
+  }
+  
+  .ts-bar-fill {
+    background-color: #007acc; /* TypeScript blue */
+  }
+  
+  
+  /* Footer styling */
+  footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+  }
+  
+  .linkedin-logo {
+    width: 30px; /* Adjust the size */
+    height: auto;
+    vertical-align: middle;
+    margin-left: 5px;
+  }
+  
+  .linkedin-logo:hover {
+    opacity: 0.8; /* Optional hover effect */
+  }
