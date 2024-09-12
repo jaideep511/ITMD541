@@ -12,7 +12,11 @@ header {
     color: white;
     padding: 20px;
     text-align: center;
-    font-size: 10px; /* Font size for header */
+    font-size: small;
+}
+
+h1 {
+    font-size: small;
 }
 
 main {
