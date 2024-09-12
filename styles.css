@@ -18,13 +18,13 @@ body {
 
 h1 {
     color: #ffffff;
-    font-size: 5px; /* Half the previous header font size */
+    font-size: 4px; /* Half the previous header font size */
     margin-bottom: 10px;
 }
 
 h2 {
     color: #ffffff;
-    font-size: 5px; /* Half the previous sub-header font size */
+    font-size: 4px; /* Half the previous sub-header font size */
     margin-top: 10px;
 }
 
