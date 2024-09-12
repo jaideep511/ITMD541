@@ -1,10 +1,9 @@
-/* Basic page styling */
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f9;
-    font-size: 6px; /* Reduced font size further */
+    font-size: 6px; 
 }
 
 header .lecture {
@@ -12,19 +11,18 @@ header .lecture {
     color: white;
     padding: 15px;
     text-align: center;
-    font-size: 6px; /* Smaller font size for the lecture header */
+    font-size: 6px; 
 }
 
 h1 {
-    font-size: 10px; /* Reduced font size for the main heading */
+    font-size: 10px; 
     margin-bottom: 8px;
 }
 
 p {
-    font-size: 6px; /* Reduced font size for paragraphs */
+    font-size: 6px; 
 }
 
-/* Section styling */
 section#about-me {
     padding: 8px;
     margin: 10px auto;
@@ -32,31 +30,31 @@ section#about-me {
     background-color: white;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
-    font-size: 6px; /* Smaller font size for About Me section */
+    font-size: 6px; 
 }
 
 h2 {
-    font-size: 8px; /* Smaller for h2 headings */
+    font-size: 8px; 
     margin-bottom: 10px;
 }
 
 img {
-    width: 60px; /* Set image width to 60px */
-    height: 60px; /* Set image height to 60px */
+    width: 40px; 
+    height: 40px; 
     display: block;
-    margin: 0 auto; /* Center the image */
+    margin: 0 auto;
 }
 
 /* Skill and meter styling */
 .skill {
     margin-bottom: 8px;
-    width: 80%; /* Ensure the skill bar is wide enough */
+    width: 80%; 
     margin: 0 auto;
-    font-size: 6px; /* Smaller font size for skill section */
+    font-size: 6px; 
 }
 
 .meter {
-    height: 8px; /* Reduced height for better fit */
+    height: 8px; 
     background-color: #ddd;
     border-radius: 5px; /* Rounded corners */
     overflow: hidden;
