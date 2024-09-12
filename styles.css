@@ -4,40 +4,40 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f9;
-    font-size: 8px; /* Reduced font size */
+    font-size: 6px; /* Reduced font size further */
 }
 
 header .lecture {
     background-color: #4CAF50;
     color: white;
-    padding: 10px;
+    padding: 15px;
     text-align: center;
-    font-size: 8px; /* Smaller font size for the lecture header */
+    font-size: 6px; /* Smaller font size for the lecture header */
 }
 
 h1 {
-    font-size: 12px; /* Reduced font size for main heading */
-    margin-bottom: 10px;
+    font-size: 10px; /* Reduced font size for the main heading */
+    margin-bottom: 8px;
 }
 
 p {
-    font-size: 8px; /* Reduced font size for paragraphs */
+    font-size: 6px; /* Reduced font size for paragraphs */
 }
 
 /* Section styling */
 section#about-me {
-    padding: 10px;
+    padding: 8px;
     margin: 10px auto;
     max-width: 800px;
     background-color: white;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
-    font-size: 8px; /* Smaller font size for About Me section */
+    font-size: 6px; /* Smaller font size for About Me section */
 }
 
 h2 {
-    font-size: 10px; /* Slightly smaller for h2 headings */
-    margin-bottom: 15px;
+    font-size: 8px; /* Smaller for h2 headings */
+    margin-bottom: 10px;
 }
 
 img {
@@ -49,14 +49,14 @@ img {
 
 /* Skill and meter styling */
 .skill {
-    margin-bottom: 10px;
+    margin-bottom: 8px;
     width: 80%; /* Ensure the skill bar is wide enough */
     margin: 0 auto;
-    font-size: 8px; /* Smaller font size for skill section */
+    font-size: 6px; /* Smaller font size for skill section */
 }
 
 .meter {
-    height: 10px; /* Reduced height for better fit */
+    height: 8px; /* Reduced height for better fit */
     background-color: #ddd;
     border-radius: 5px; /* Rounded corners */
     overflow: hidden;
@@ -79,9 +79,9 @@ footer {
     text-align: center;
     background-color: #333;
     color: white;
-    padding: 10px 0;
+    padding: 8px 0;
     position: relative;
     bottom: 0;
     width: 100%;
-    font-size: 8px; /* Smaller font size for footer */
+    font-size: 6px; /* Smaller font size for footer */
 }
