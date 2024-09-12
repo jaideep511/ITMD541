@@ -30,16 +30,6 @@ body {
     color: #333;
   }
   
-  /* Profile image */
-  .profile-img {
-    display: block;
-    margin: 20px auto;
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-  }
-  
   /* Skills section */
   .skills-container {
     display: flex;
