@@ -60,11 +60,19 @@
 /* Flexbox Part 3 */
 
 #flex-section3 .box {
-
+	display: flex;
+	justify-content: center;  /* Center the card horizontally */
+	align-items: center;      /* Center the card vertically */
+	height: 100%;      
 }
 
 #flex-section3 .tags ul {
-
+	display: flex;
+	justify-content: center;  /* Center the tags horizontally */
+	flex-wrap: wrap;          /* Wrap tags to the next line if needed */
+	list-style: none;         /* Remove bullets */
+	padding: 0;
+	margin-top: 15px; 
 }
 
 /* end Flexbox Part 3 */
