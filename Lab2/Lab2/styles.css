@@ -25,23 +25,34 @@
 /* Flexbox Part 2 */
 
 #flex-section2 ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  list-style: none;
+  margin: 0;
 
 }
 
 #flex-section2 li {
+  background-color: #d3d3d3;
+  border: 2px solid #888;
+  padding: 20px;
+  flex: 1;
+  margin: 10px;
+  box-sizing: border-box;
 
 }
 
 #flex-section2 .item1 {
-
+	order: 1;
 }
 
 #flex-section2 .item2 {
-
+	order: 3;
 }
 
 #flex-section2 .item3 {
-
+	order: 2;
 }
 
 /* end Flexbox Part 2 */
