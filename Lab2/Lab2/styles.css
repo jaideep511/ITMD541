@@ -93,7 +93,15 @@
 
 
 /* Grid Part 2 */
-
+#grid-section2 .grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+	grid-template-rows: repeat(3, 1fr);    /* 3 equal rows */
+	gap: 10px; /* Adjust gap between boxes */
+	position: relative; /* Ensure overlap positioning works */
+	height: 400px; /* Adjust height to match the example */
+  }
+  
 #grid-section2 .gridboxblue {
 	grid-column: 1 / 4; /* Span across all 3 columns */
 	grid-row: 1 / 4;    /* Span across all 3 rows */
