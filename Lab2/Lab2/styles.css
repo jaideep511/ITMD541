@@ -95,11 +95,22 @@
 /* Grid Part 2 */
 
 #grid-section2 .gridboxblue {
-
+	grid-column: 1 / 4; /* Span across all 3 columns */
+	grid-row: 1 / 4;    /* Span across all 3 rows */
+	background-color: rgba(0, 0, 255, 0.7); /* Semi-transparent blue */
+	border: 5px solid darkblue;
+	z-index: 2; /* Make sure the blue box is above the red box */
+	position: relative;
+  
 }
 
 #grid-section2 .gridboxred {
-
+	grid-column: 1 / 3; /* Span across 2 columns */
+	grid-row: 2 / 3;    /* Stay in the second row */
+	background-color: rgba(255, 0, 0, 0.7); /* Semi-transparent red */
+	border: 5px solid darkred;
+	z-index: 1; /* Keep the red box below the blue box */
+	position: relative;
 }
 
 /* end Grid Part 2 */
