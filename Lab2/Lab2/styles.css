@@ -1,7 +1,22 @@
 /* Flexbox Part 1 */
 
 #flex-section1 ul {
-
+  display: flex;
+  justify-content: space-between; /* Distribute space evenly */
+  list-style-type: none; /* Remove bullets */
+  padding: 0;
+}
+#flex-section1 li a {
+    padding: 10px 20px;
+    background-color: #e0e0e0;
+    text-decoration: none;
+    color: #333;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+#flex-section1 li a:hover {
+    background-color: #c0c0c0;
 }
 
 /* end Flexbox Part 1 */
