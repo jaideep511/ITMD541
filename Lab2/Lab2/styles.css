@@ -83,7 +83,10 @@
 /* Grid Part 1 */
 
 #grid-section1 .grid {
-
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);  /* Creates 4 equal-width columns */
+	grid-auto-rows: 100px;                  /* Rows will be 100px tall */
+	gap: 20px; 
 }
 
 /* end Grid Part 1 */
