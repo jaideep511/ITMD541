@@ -63,7 +63,9 @@
 	display: flex;
 	justify-content: center;  /* Center the card horizontally */
 	align-items: center;      /* Center the card vertically */
-	height: 100%;      
+	margin: 20px 0;
+	height: auto;     
+ 
 }
 
 #flex-section3 .tags ul {
