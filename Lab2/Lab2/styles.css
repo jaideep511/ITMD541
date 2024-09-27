@@ -8,7 +8,7 @@
 }
 #flex-section1 li a {
     padding: 10px 20px;
-    background-color: #f10000c8;
+    background-color: hwb(0 0% 6% / 0.644);
     text-decoration: none;
     color: #f7f7f7e7;
     border-radius: 5px;
