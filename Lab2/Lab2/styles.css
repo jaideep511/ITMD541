@@ -105,7 +105,7 @@
 #grid-section2 .gridboxblue {
 	grid-column: 2 / 4; /* Span across all 3 columns */
 	grid-row: 1 / 4;    /* Span across all 3 rows */
-	background-color: rgba(42, 42, 247, 0.861); /* Semi-transparent blue */
+	background-color: rgba(42, 247, 117, 0.861); /* Semi-transparent blue */
 	border: 5px solid rgb(0, 0, 179);
 	z-index: 2; /* Make sure the blue box is above the red box */
 	position: relative;
