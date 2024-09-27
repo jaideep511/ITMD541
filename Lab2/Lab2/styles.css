@@ -63,18 +63,15 @@
 	display: flex;
 	justify-content: center; 
 	align-items: center;      
-	margin: 20px 0;
-	height: auto;     
+	height: 100vh;     
  
 }
 
 #flex-section3 .tags ul {
 	display: flex;
 	justify-content: center;  
-	flex-wrap: wrap;          
-	list-style: none;        
-	padding: 0;
-	margin-top: 15px; 
+	align-items: center;
+	margin: 20px 0; 
 }
 
 /* end Flexbox Part 3 */
