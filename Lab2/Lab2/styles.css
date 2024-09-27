@@ -38,6 +38,7 @@
   padding: 20px;
   flex: 1;
   margin: 10px;
+  box-sizing: border-box;
 
 }
 
